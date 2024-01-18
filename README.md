@@ -1,4 +1,4 @@
-# <h1 align=center> **Cosulta de Requerimiento de Cultivos**
+# <h1 align=center> **Consulta de Requerimiento de Cultivos**
 # <h1 align=center> **Daniel Suárez**
 ### <h1 align=center> **`Análisis de Datos y Machine Learning`**
 
