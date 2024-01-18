@@ -19,7 +19,7 @@ st.markdown('***')
 # ----------------------------------------------------------------
 
 # Recupere todos los datos de la tabla en un DataFrame de pandas
-data = pd.read_csv('data.csv')
+data = pd.read_csv('CSVs/data_features.csv')
 
 # elaboracion de panel de consulta de requerimientos de cultivos
 st.markdown("<h2 style='text-align: center; color: green;'>Consulta de Requerimientos de Cultivos</h2>",
@@ -367,6 +367,6 @@ def recommend_crops(data_file='data_features.csv', input_label=None, top_n=4):
     return res_string
 
 
-resultado = recommend_crops('data_features.csv', y_pred[0])
+resultado = recommend_crops('CSVs/data_features.csv', y_pred[0])
 st.write(
     '### también se pueden adaptar los siguientes cultivos: ' + resultado + '.')
