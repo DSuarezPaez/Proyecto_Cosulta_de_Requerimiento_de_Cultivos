@@ -19,7 +19,7 @@ st.markdown('***')
 # ----------------------------------------------------------------
 
 # Recupere todos los datos de la tabla en un DataFrame de pandas
-data = pd.read_csv('CSVs/data.csv')
+data = pd.read_csv('CSVs\data.csv')
 
 # elaboracion de panel de consulta de requerimientos de cultivos
 st.markdown("<h2 style='text-align: center; color: green;'>Consulta de Requerimientos de Cultivos</h2>",
